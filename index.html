@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Hover Preview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>YouTube Hover Preview with Play/Pause and Mute Controls</h1>
+    <div class="video-container">
+        <img 
+            src="https://images.unsplash.com/photo-1589561454226-796a8aa89b05?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+            alt=""
+            class="thumbnail"
+            id="thumbnail"
+        >
+        <video 
+            src="/assets/video/720p.mp4"
+            class="preview-video"
+            id="preview-video"
+            muted
+            loop
+        ></video>
+        <div class="conroller">
+            <button id="playPauseBtn">pause</button>
+            <button id="muteBtn">mute</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
